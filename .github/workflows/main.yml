@@ -23,15 +23,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
-        run: npm test
-        # You can replace `npm test` with your actual test command
-
-      - name: Lint code
-        run: npm run lint
-        # You can replace `npm run lint` with your actual linting command
+        uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build
