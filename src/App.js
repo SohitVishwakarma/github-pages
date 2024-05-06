@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        TEST CI/CD rtgb rtbrt bgrw
+        TEST CI/CD 
         </a>
       </header>
     </div>
